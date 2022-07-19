@@ -738,6 +738,14 @@ label:nth-child(2) {
   background: #0A775F;
 }
 
+.order-inp:checked ~ .order-span .span-str {
+  color: #fff;
+}
+
+.order-inp:checked ~ .order-span .spantext {
+  color: #fff;
+}
+
 .summ-item {
   width: 690px;
   background: #C99B67;
